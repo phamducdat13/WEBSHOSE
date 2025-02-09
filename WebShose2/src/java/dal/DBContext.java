@@ -19,6 +19,7 @@ public class DBContext {
     public Connection connection;
 
     public DBContext() {
+        //
         try {
             //Change the username password and url to connect your own database
             String username = "sa";
